@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "test": "echo \"No tests specified\" && exit 0",
+    "test": "node src/app.js",
     "coverage": "echo \"No coverage script yet\" && exit 0"
   },
   "keywords": [],
